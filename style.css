@@ -1,0 +1,49 @@
+.header{
+    background-color: burlywood;
+    text-align: center;
+    margin-top: 0px;
+    background-image: url('bg.jpg');
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: cornsilk;
+    background-color:rgba(220, 220, 220, 0.685);
+    background-repeat: no-repeat;
+}
+
+.sub-header{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+a{
+text-decoration: none;
+font-size: 30px;
+background-color:rgba(65, 105, 225, 0.336);
+padding: 10px;
+color:black;
+font-weight: bold;
+}
+
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+padding: 70px;
+
+}
+
+.item
+{
+margin: 30px;
+
+}
+.footer{
+    padding: 40px;
+    display: flex;
+    background-color: coral;
+    justify-content: space-around;
+}
